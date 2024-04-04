@@ -4,6 +4,8 @@ import github from '../../assets/images/icons/icons8-github.svg';
 import linkedin from '../../assets/images/icons/icons8-linkedin.svg';
 import email from '../../assets/images/icons/icons8-email-50.png';
 
+import { Link } from 'react-router-dom';
+
 function HomePage() {
     return (
         <main className="home">
@@ -44,25 +46,15 @@ function HomePage() {
             </section>
 
             <section className='home__buttons'>
-                {/* <div className='home__buttons-button'>
-                    PROJECTS
-                </div>
-                <div className='home__buttons-button'>
-                    WORK HISTORY
-                </div>
-                <div className='home__buttons-button'>
-                    EDUCATION
-                </div>
-                <div className='home__buttons-button'>
-                    taking up space
-                </div> */}
-                <div className='home__buttons-neon'>
+
+                <Link to='/projects' className='home__buttons-neon'>
                     <span className='home__buttons-neon--1'></span>
                     <span className='home__buttons-neon--2'></span>
                     <span className='home__buttons-neon--3'></span>
                     <span className='home__buttons-neon--4'></span>
                     projects
-                </div>
+                </Link>
+
                 <div className='home__buttons-neon'>
                     <span className='home__buttons-neon--1'></span>
                     <span className='home__buttons-neon--2'></span>
@@ -70,6 +62,7 @@ function HomePage() {
                     <span className='home__buttons-neon--4'></span>
                     work history
                 </div>
+
                 <div className='home__buttons-neon'>
                     <span className='home__buttons-neon--1'></span>
                     <span className='home__buttons-neon--2'></span>
