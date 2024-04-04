@@ -16,6 +16,22 @@ function HomePage() {
                     </div>
                 </div>
             </section>
+
+            <h1 className='home__title'>
+                ANDREA MATOS
+            </h1>
+
+            <section className='home__buttons'>
+                <div className='home__buttons-button'>
+                    PROJECTS
+                </div>
+                <div className='home__buttons-button'>
+                    WORK HISTORY
+                </div>
+                <div className='home__buttons-button'>
+                    EDUCATION
+                </div>
+            </section>
         </main>
     )
 }
