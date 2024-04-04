@@ -77,10 +77,28 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
         top: 25vh;
     }
 
-    &__buttons {
+    &__socials {
         position: absolute;
 
         top: 45vh;
+        width: 100%;
+
+        padding: 2vw 20vw;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-separator {
+            color: white;
+            font-size: 2rem;
+        }
+    }
+
+    &__buttons {
+        position: absolute;
+
+        top: 55vh;
         width: 100%;
 
         display: flex;

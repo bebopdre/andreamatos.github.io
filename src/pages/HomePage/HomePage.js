@@ -35,6 +35,12 @@ function HomePage() {
                 <div className='home__socials-social'>
                     <img className='home__socials-social-img' alt='LinkedIn' src={linkedin} />
                 </div>
+
+                <p className='home__socials-separator'> | </p>
+
+                <div className='home__socials-social'>
+                    <img className='home__socials-social-img' alt='E-mail' src={email} />
+                </div>
             </section>
 
             <section className='home__buttons'>
